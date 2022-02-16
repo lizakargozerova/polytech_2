@@ -1,0 +1,31 @@
+1)
+#include <iostream>
+
+int main() {
+    int a = 0;
+    int b = 0;
+    char k;
+    std::cout << "Enter number a: ";
+    std::cin >> a;
+    std::cout << "Enter first number b: ";
+    std::cin >> b;
+    std::cout << "Enter operation: ";
+    std::cin >> k;
+    switch (k) {
+        case '-':
+            std::cout <<a<<"-"<<b<< "="<< a - b << '\n';
+            break;
+        case '+':
+            std::cout <<a<<"+"<<b<< "=" << a + b << '\n';
+            break;
+        case '*':
+            std::cout <<a<<"*"<<b<< "=" << a * b << '\n';
+            break;
+        case '/':
+            std::cout <<a<<"/"<<b<< "=" << a / b << '\n';
+            break;
+        default:
+            std::cout << "Error\n";
+             }
+             return 0;}
+             
